@@ -70,11 +70,27 @@
       <section class="py-8 bg-white">
         <div class="container mx-auto">
             <h2 class="text-3xl font-bold mb-6 text-center">Categories</h2>
-            <div class="flex flex-wrap justify-center space-x-4">
-                <span class="bg-yellow-500 text-white py-2 px-4 rounded-full">Iphone</span>
-                <span class="bg-yellow-400 text-white py-2 px-4 rounded-full">Ipad</span>
-                <span class="bg-yellow-300 text-white py-2 px-4 rounded-full">Macbook</span>
-                <span class="bg-yellow-200 text-white py-2 px-4 rounded-full">Samsung</span>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div class="bg-yellow-400 text-white p-4 rounded-lg flex flex-col items-center hover:bg-yellow-500 ">
+                    <i class="fas fa-mobile-alt text-4xl mb-4"></i>
+                    <h3 class="text-xl font-bold">Iphone</h3>
+                    <p class="text-center">Latest models and updates.</p>
+                </div>
+                <div class="bg-yellow-400 text-white p-4 rounded-lg flex flex-col items-center hover:bg-yellow-500">
+                    <i class="fas fa-tablet-alt text-4xl mb-4"></i>
+                    <h3 class="text-xl font-bold">Ipad</h3>
+                    <p class="text-center">New features and reviews.</p>
+                </div>
+                <div class="bg-yellow-400 text-white p-4 rounded-lg flex flex-col items-center hover:bg-yellow-500">
+                    <i class="fas fa-laptop text-4xl mb-4"></i>
+                    <h3 class="text-xl font-bold">Macbook</h3>
+                    <p class="text-center">Productivity and performance tips.</p>
+                </div>
+                <div class="bg-yellow-400 text-white p-4 rounded-lg flex flex-col items-center hover:bg-yellow-500">
+                    <i class="fas fa-mobile-alt text-4xl mb-4"></i>
+                    <h3 class="text-xl font-bold">Samsung</h3>
+                    <p class="text-center">Latest releases and innovations.</p>
+                </div>
             </div>
         </div>
     </section>
